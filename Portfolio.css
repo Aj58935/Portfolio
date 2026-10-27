@@ -1,0 +1,271 @@
+body {
+  background-image: linear-gradient(to right top, #767872, #8b908d,#a3a9a8, #bec2c3, #c1c2c4);
+  /* background-color: #999999;*/
+  
+
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 3px solid blue;
+  padding: 24px;
+  background-color: #fdfdfd;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  /* This is for the dummy columns, replace or delete */
+}
+section p a{
+  color:blue;
+  font-size: 20px;
+  text-decoration: underline;
+}
+section p a:hover{
+  color:green;
+  font-size:20px;
+}
+nav{
+  display: inline-block;
+  grid-column: span 12;
+  
+}
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+
+}
+nav li{
+  display: inline-block;
+  width:200px;
+  text-align: center;
+  border: 5px solid blue;
+  margin:10px;
+  background-image: linear-gradient(to right, #25e74f, #22cf44, #1eb73a, #19a030, #148a26, #107d23, #0c711f, #09651c, #075f1d, #06591e, #06541f, #074e1f);
+  color: white;
+}
+nav li a{
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding:10px;
+      transition: all .5s;
+}
+nav li a:hover{
+  background-color: darkgreen;
+  color: blue;
+  
+}
+
+h1{
+  grid-column: span 12;
+  color:white;
+  
+  background-image: linear-gradient(to right, #25e74f, #22cf44, #1eb73a, #19a030, #148a26, #107d23, #0c711f, #09651c, #075f1d, #06591e, #06541f, #074e1f);
+  border: 5px solid rgb(12, 12, 230);
+  border-radius:80px;
+  font-size:48px;
+  font-weight: normal;
+  padding: 24px;
+  box-shadow: 10px 10px 10px #999; 
+  text-shadow: 2px 2px 2px #000;
+  text-align: center; 
+  font-family: "Bad Script", cursive;
+}
+main{
+  grid-column: span 12;
+  display: flex;
+  gap:24px;
+  margin-left: 120px;
+}
+#Game{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:24px;
+  margin-left: 120px;
+}
+h2{
+  grid-column: 4/10;
+  background-color: lightgray;
+  color:Black;
+  border: 5px solid rgb(12, 12, 230);
+  width:540px;
+  border-radius:30px;
+  font-size:32px;
+  font-weight: bold;
+  padding: 24px;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+  text-shadow: 2px 2px 2px blue;
+  text-align: center; 
+}
+section h3{
+  
+  color:blue;
+  border-bottom: 4px solid blue;
+  font-size: 24px;
+   font-family: "Bad Script", cursive;
+}
+section h3 a{
+  
+  color:blue;
+  display: block;
+  font-size: 24px;
+   font-family: "Bad Script", cursive;
+}
+section h3 a:hover{
+  color:green;
+  font-size: 24px;
+   font-family: "Bad Script", cursive;
+}
+aside h3 a{
+  color:blue;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+   font-family: "Bad Script", cursive;
+}
+aside h3 a:hover{
+  color:green;
+  font-size: 30px;
+   font-family: "Bad Script", cursive;
+}
+
+section a{
+  text-decoration: none;
+  
+}
+section a:hover{
+  
+  color: blue;
+  
+  
+}
+
+section img{
+  width: 100%;
+  
+  
+}
+section a:hover img{
+  transform:scale(1.1);
+}
+aside a:hover img{
+  transform:scale(1.1);
+}
+
+.changesize{
+  width:60%;
+}
+
+
+aside{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color: blue;
+    grid-column: span 10;
+    border: 4px solid blue;
+    background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
+   width:400px;
+   height: 600px;
+   padding: 0 1em 1em 1em;
+   margin-left: 90px;
+   margin-top: 70px ;
+   font-family: "Bad Script", cursive;
+
+
+}
+.description{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:justify;
+  color: white;
+  grid-column: span 8;
+  border: 4px solid blue;
+  background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
+  width:300px;
+  padding: 0 1em 1em 1em;
+  margin-left: 50px;
+
+}
+.about{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:justify;
+  color: white;
+  grid-column: span 12;
+  font-size:24px;
+  border: 4px solid blue;
+  background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
+  width:400px;
+  padding: 0 1em 1em 1em;
+  margin-left: 250px;
+  
+}
+.about img{
+  margin-left: 50px;
+}
+
+.about h3{
+  color:white;
+  font-family: "Bad Script", cursive;
+  font-size:30px;
+  border-bottom: 4px solid blue;
+  text-align: center;
+  
+}
+.description h3{
+  color:white;
+}
+
+.skills{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  color: white;
+  grid-column: span 8;
+  border: 4px solid blue;
+  background-image: linear-gradient(to right top, #5b5c59, #8b908d,#a3a9a8, #bec2c3, #8b8c8d);
+ width:250px;
+ padding: 0 1em 1em 1em;
+ margin-left: 50px;
+}
+.skills h3{
+  color:white;
+}
+#myCarousel{
+  margin-bottom: 12px;
+  grid-column: 4/10;
+  border:3px solid blue;
+}
+#myCarousel img{
+  width:90%;
+  height:100%;
+}
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 12px;
+  background: #eee;
+}
+.f-carousel {
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(40, 26, 248);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgba(125, 20, 223, 0.3);
+
+  --f-button-bg: #09af32;
+  --f-button-hover-bg: #096118;
+  --f-button-hover-color:blue;
+  --f-button-active-bg: #310ead;
+}
+
+
+
+
+
